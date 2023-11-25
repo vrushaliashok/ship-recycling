@@ -5,7 +5,7 @@ import streamlit as st
 import nltk
 
 nltk.download('punkt')
-st.title("Trustee Recruitment")
+st.title("Ship Recycling")
 
 def article_content(url):
     article = Article(url)
