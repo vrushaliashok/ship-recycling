@@ -29,7 +29,7 @@ def search_and_extract(query):
 
 if __name__ == "__main__":
     visited_links = set()
-    search_queries = ['ship recycling']
+    search_queries = ['ship recycling', 'ship recycling yards', 'hong kong convention ship recycling', 'cash buyers ship recycling']
     for search_query in search_queries:
         st.header(search_query.upper(), divider = "rainbow")
         search_and_extract(search_query)
